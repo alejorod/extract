@@ -1,0 +1,7 @@
+let message = 'hello world';
+module.exports = {
+  message: message,
+  log: function() {
+    return message;
+  }
+}

@@ -8,7 +8,7 @@ import extract from './extract';
  * @param  {String} key      Named export to extract
  * @return {Promise.<*>}
  */
-function fromStream(readStream, key='') {
+function fromStream(readStream, key) {
   return new Promise((resolve, reject) => {
     let data = [];
     let dataLength = 0;

@@ -9,7 +9,7 @@ import vm from 'vm';
  * @param  {String} key
  * @return {*}
  */
-export default function(bundle, key='') {
+export default function(bundle, key) {
   let target = bundle;
 
   if (typeof(target) === 'string') {

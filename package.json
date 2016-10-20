@@ -1,0 +1,38 @@
+{
+  "name": "extract",
+  "version": "1.0.0",
+  "description": "Extract exports from plain js object, js file streams, buffers or even strings",
+  "keywords": [
+    "extract",
+    "module",
+    "bundle",
+    "stream",
+    "buffer",
+    "exports"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejorod/extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alejorod/extract/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Alejo Rodriguez <a.rodsott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-istanbul": "^0.11.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.8.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}

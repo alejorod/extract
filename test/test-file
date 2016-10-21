@@ -1,4 +1,4 @@
-let message = 'hello world';
+var message = 'hello world';
 module.exports = {
   message: message,
   log: function() {

@@ -5,7 +5,7 @@ import extract from '../src/index';
 
 let message = 'hello world';
 let code = `
-  let message = '${message}';
+  var message = '${message}';
   module.exports = {
     message: message,
     log: function() {

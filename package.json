@@ -1,6 +1,6 @@
 {
   "name": "source-extract",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Extract exports from plain js object, js file streams, buffers or even strings",
   "keywords": [
     "source",

@@ -63,6 +63,4 @@ The main goal of the package is to interpret js packages bundled on the run when
 
 * * *
 
-Made with :heart: by [Alejo Rodriguez][alejorodriguez]
-
- [alejorodriguez]: https://alejorod.github.io/arodriguez/
+Made with :heart: by [Alejo Rodriguez](https://alejorod.github.io/arodriguez/)

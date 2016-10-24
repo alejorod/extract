@@ -1,6 +1,7 @@
 # JS module interpreter
 [![Build Status](https://travis-ci.org/alejorod/extract.svg?branch=master)](https://travis-ci.org/alejorod/extract)
 [![Coverage Status](https://coveralls.io/repos/github/alejorod/extract/badge.svg?branch=master)](https://coveralls.io/github/alejorod/extract?branch=master)
+[![npm version](https://badge.fury.io/js/source-extractor.svg)](https://badge.fury.io/js/source-extractor)
 
 Get the `exports` object from a stream, buffer, string or object representing a js module. *see [usage](#usage).*
 
@@ -8,14 +9,14 @@ Get the `exports` object from a stream, buffer, string or object representing a 
 
 #### With npm:
 ```
-npm install -save extract
+npm install -save source-extract
 ```
 
 > `extract` is meant to be used on a commonjs environment (or es6 through transpilation) such as the one `node` provides, is has **no browser support**
 
 ### Usage
 ````javascript
-let extract = require('extract');
+let extract = require('source-extract');
 
 // from a string source
 let source =  ```

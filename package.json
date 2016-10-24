@@ -1,8 +1,9 @@
 {
-  "name": "extract",
+  "name": "source-extract",
   "version": "1.0.0",
   "description": "Extract exports from plain js object, js file streams, buffers or even strings",
   "keywords": [
+    "source",
     "extract",
     "module",
     "bundle",

@@ -1,7 +1,7 @@
 # JS module interpreter
 [![Build Status](https://travis-ci.org/alejorod/extract.svg?branch=master)](https://travis-ci.org/alejorod/extract)
 [![Coverage Status](https://coveralls.io/repos/github/alejorod/extract/badge.svg?branch=master)](https://coveralls.io/github/alejorod/extract?branch=master)
-[![npm version](https://badge.fury.io/js/source-extractor.svg)](https://badge.fury.io/js/source-extractor)
+[![npm version](https://badge.fury.io/js/source-extract.svg)](https://badge.fury.io/js/source-extract)
 
 Get the `exports` object from a stream, buffer, string or object representing a js module. *see [usage](#usage).*
 
@@ -9,7 +9,7 @@ Get the `exports` object from a stream, buffer, string or object representing a 
 
 #### With npm:
 ```
-npm install -save source-extract
+npm install --save source-extract
 ```
 
 > `extract` is meant to be used on a commonjs environment (or es6 through transpilation) such as the one `node` provides, is has **no browser support**
@@ -60,3 +60,9 @@ extract
 ### Why?
 
 The main goal of the package is to interpret js packages bundled on the run when on development. An example of such case would be server side rendering, when de server bundle is being watched and re-bundled when a file changes, we need to reinterpret the js bundle (which can come in any kind of format) on the run.
+
+* * *
+
+Made with :heart: by [Alejo Rodriguez][alejorodriguez]
+
+ [alejorodriguez]: https://alejorod.github.io/arodriguez/

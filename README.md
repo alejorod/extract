@@ -43,7 +43,7 @@ extract
  * Notes:
  *
  * - Extracting from Buffer and Objects works the same way as extracting from strings.
- * - Extracting from streams works with any kind of streams, such as http responses, read file streams, etc..
+ * - Extracting from streams works with any kind of readable streams, such as http responses, read file streams, etc..
  */
 ````
 
